@@ -12,8 +12,8 @@ const About = () => {
 
         <div className="container">
             <h4 className="center">About </h4>
-            <p>Hi, I'm Nima</p>
-            <p>hi</p>
+            <p>Hi, My name is Nima Mohajeri. This is my first React app for practice</p>
+            
 
            
         </div>

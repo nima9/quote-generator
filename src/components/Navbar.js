@@ -7,7 +7,7 @@ const Navbar = () => {
             <div className="container">
                 <li className="brand-logo" ><Link to ="/">Quote Generator</Link></li>
                 <ul className="right" /* ul = unordered list */>
-                    <li /*item in a list */><Link to="/">Home</Link></li/*use "Link" tag rather than "a" (ancor) tag so page doesn't have to refresh everytime */>
+                    <li /*item in a list */><Link to="/quote-generator">Home</Link></li/*use "Link" tag rather than "a" (ancor) tag so page doesn't have to refresh everytime */>
                     <li><NavLink to="/about">About</NavLink></li>
                 </ul>
             </div>
