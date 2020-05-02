@@ -12,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Switch /* We use the switch tag to only load one component (lesson #32) */> 
-          <Route exact path='/quote-generator' component={Home} />
+          <Route path='/quote-generator' component={Home} />
           <Route path='/about' component={About} />
         </Switch>
     
